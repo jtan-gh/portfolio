@@ -1,6 +1,6 @@
 {
   "name": "animatedportfolio",
-  "homepage": "https://github.com/Jtan99/Portfolio",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,8 +24,8 @@
     "react-typed": "^1.2.0"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts  --openssl-legacy-provider build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
