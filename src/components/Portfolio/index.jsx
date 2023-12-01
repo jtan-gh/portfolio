@@ -15,33 +15,51 @@ import { faUserLock } from "@fortawesome/free-solid-svg-icons/faUserLock"
 
 import PortfolioItem from "./PortfolioItem/PortfolioItem"
 
-const Portfolio = ({ projects }) => {
-  const [selected, setSelected] = useState("featured")
-  const [data, setData] = useState([])
-  const [projectList, setProjectList] = useState([])
+let projects = [
+  {
+    "id": 1,
+    "title": "Fitness App",
+    "tagline": "",
+    "category": "Featured",
+    "liveUrl": "https://github.com/Jtan99/fitness-app",
+    "repositoryUrl": "https://github.com/Jtan99/fitness-app",
+    "img": "/Portfolio/FitnessApp/landing.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Ecommerce Site",
+    "tagline": "React App integrated with commercial CMS and Stripe checkout system",
+    "category": "Featured",
+    "liveUrl": "https://e-comm-demo.netlify.app/",
+    "repositoryUrl": "https://github.com/Jtan99/Ecommerce",
+    "img": "/Portfolio/Ecommerce/browseCatalogueDemo.png"
+  },
+  {
+    "id": 3,
+    "title": "Multi Agent Path Finder",
+    "tagline": "Efficient Routing Solutions for Seamless Navigation in Robotics, Gaming, and AI Exploration.",
+    "category": "Featured",
+    "liveUrl": "",
+    "repositoryUrl": "https://github.com/Jtan99/Multi-Agent-Path-Finder",
+    "img": "/Portfolio/MultiAgentPathFinder/solvedInstance.jpg"
+  },
+]
+
+// Define the Portfolio component
+const Portfolio = () => {
+  let uniqueCategories = [...new Set(projects.map(project => project.category))];
+  const [selected, setSelected] = useState("Featured");
+  const [data, setData] = useState([]);
+  const [projectCategories, setProjectCategories] = useState(uniqueCategories);
+
 
   useEffect(() => {
-    let tempList = []
-    projects.map(({ category }) => {
-      if (!tempList.includes(category)) {
-        tempList.push(category)
-      }
+    let filteredData = [];
+    filteredData = projects.filter((project) => project.category === selected);
+    setData(filteredData);
+  }, [selected, projects]);
 
-      return null
-    })
-    setProjectList(tempList)
-  }, [projects])
-
-  useEffect(() => {
-    projectList.map((list) => {
-      if (selected === list) {
-        setData(projects.filter((project) => project.category === list))
-      }
-
-      return null
-    })
-  }, [selected, projectList, projects])
-
+  // Return JSX for rendering the component
   return (
     <section
       data-aos="fade-left"
@@ -50,9 +68,10 @@ const Portfolio = ({ projects }) => {
       id="portfolio"
     >
       <Heading text="Portfolio" style={{ padding: "3rem" }} />
-      <div className="list">
-        {projectList &&
-          projectList.map((list) => (
+      {/* Remove for now, when there is enough projects i will add categorization */}
+      {/* <div className="list">
+        {projectCategories &&
+          projectCategories.map((list) => (
             <PortfolioItem
               title={list}
               key={list}
@@ -61,12 +80,12 @@ const Portfolio = ({ projects }) => {
               id={list}
             />
           ))}
-      </div>
+      </div> */}
       <div className="row">
         {data.length &&
           data.map((item, index) => (
             <div className="column" key={index}>
-              <img src={item?.img.asset.url} alt={item.title} />
+              <img src={item?.img} alt={item.title} />
               <div className="overlay">
                 <div className="left">
                   <h3>{item.title}</h3>
@@ -95,7 +114,7 @@ const Portfolio = ({ projects }) => {
                     </a>
                   )}
 
-                  {item.liveUrl !== "private" ? (
+                  {item.liveUrl !== "" && (
                     <a
                       href={item.liveUrl}
                       target="_blank"
@@ -106,15 +125,6 @@ const Portfolio = ({ projects }) => {
                         size="2x"
                         className="icon"
                         title="Live view"
-                      />{" "}
-                    </a>
-                  ) : (
-                    <a href="#_" rel="noopener noreferrer">
-                      <FontAwesomeIcon
-                        icon={faUserLock}
-                        size="2x"
-                        className="icon"
-                        title="Private Link"
                       />{" "}
                     </a>
                   )}

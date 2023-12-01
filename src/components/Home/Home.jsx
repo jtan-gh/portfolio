@@ -2,7 +2,7 @@ import React from "react"
 import Typed from "react-typed"
 
 // SVG
-import man from "images/dev.svg"
+import man from "images/dev.jpg"
 
 // Animation
 import { Link } from "react-scroll"
@@ -37,22 +37,19 @@ const Home = () => {
         initial="initial"
         animate="animate"
       >
-        <h2>Hello</h2>
-        <h1>I’m Johnson</h1>
-        <p style={{ fontSize: "1.2rem ", fontWeight: "600" }}>
-          I am a
-          <span style={{ marginLeft: "8px" }}>
-            <Typed
-              strings={[
-                "Software Developer",
-                "Software Developer",
-              ]}
-              typeSpeed={60}
-              backSpeed={60}
-              loop
-            />
-          </span>
-        </p>
+        <h1>Johnson Tan</h1>
+        <h2>
+          <Typed
+            strings={[
+              "Software Engineer",
+              "Full Stack Developer",
+              "Data Scientist",
+            ]}
+            typeSpeed={30}
+            backSpeed={60}
+            loop
+          />
+        </h2>
         <Link
           // className="home-btn"
           to={"portfolio"}
