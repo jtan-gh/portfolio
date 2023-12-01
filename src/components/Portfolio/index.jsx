@@ -23,7 +23,7 @@ let projects = [
     "category": "Featured",
     "liveUrl": "https://github.com/Jtan99/fitness-app",
     "repositoryUrl": "https://github.com/Jtan99/fitness-app",
-    "img": "/Projects/FitnessApp/landing.jpg"
+    "img": "{{ site.baseurl}}//Projects/FitnessApp/landing.jpg"
   },
   {
     "id": 2,
@@ -32,7 +32,7 @@ let projects = [
     "category": "Featured",
     "liveUrl": "https://e-comm-demo.netlify.app/",
     "repositoryUrl": "https://github.com/Jtan99/Ecommerce",
-    "img": "/Projects/Ecommerce/browseCatalogueDemo.png"
+    "img": "{{ site.baseurl}}//Projects/Ecommerce/browseCatalogueDemo.png"
   },
   {
     "id": 3,
@@ -41,7 +41,7 @@ let projects = [
     "category": "Featured",
     "liveUrl": "",
     "repositoryUrl": "https://github.com/Jtan99/Multi-Agent-Path-Finder",
-    "img": "/Projects/MultiAgentPathFinder/solvedInstance.jpg"
+    "img": "{{ site.baseurl}}//Projects/MultiAgentPathFinder/solvedInstance.jpg"
   },
 ]
 
