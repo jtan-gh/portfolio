@@ -4,7 +4,8 @@ import React, { useEffect, useState } from "react"
 import Nav from "components/Nav/Nav"
 import Home from "components/Home/Home"
 import Menu from "components/Menu/Menu"
-import Portfolio from "components/Portfolio"
+import About from "components/About/About"
+import Projects from "components/Projects"
 import Contact from "components/Contact/Contact"
 import Services from "components/Services/Services"
 import Testimonials from "components/Testimonials/Testimonials"
@@ -89,8 +90,9 @@ function App() {
       <Nav menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Home />
-      <Services services={services} />
-      <Portfolio projects={projects} />
+      {/* <Services services={services} /> */}
+      <About />
+      <Projects projects={projects} />
       <Testimonials testimonials={testimonials} />
       <Contact />
       <Footer />

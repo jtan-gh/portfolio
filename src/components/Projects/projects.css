@@ -1,4 +1,4 @@
-.portfolio {
+.projects {
   background-color: var(--secondary-color);
   display: flex;
   flex-direction: column;
@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.portfolio .list {
+.projects .list {
   margin: 10px;
   padding: 0;
   list-style: none;
@@ -143,7 +143,7 @@
     bottom: 0px;
   }
 
-  .portfolio .list {
+  .projects .list {
     width: 60%;
     justify-content: space-evenly;
   }

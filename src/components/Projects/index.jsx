@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 
 // Styles
-import "./portfolio.css"
+import "./projects.css"
 
 // components
 import { Heading } from "components/Heading/Heading"
@@ -19,11 +19,11 @@ let projects = [
   {
     "id": 1,
     "title": "Fitness App",
-    "tagline": "",
+    "tagline": "Interactive fitness studio webpage with React and Node.js",
     "category": "Featured",
     "liveUrl": "https://github.com/Jtan99/fitness-app",
     "repositoryUrl": "https://github.com/Jtan99/fitness-app",
-    "img": "{{ site.baseurl}}//Projects/FitnessApp/landing.jpg"
+    "img": "/Projects/FitnessApp/landing.jpg"
   },
   {
     "id": 2,
@@ -32,7 +32,7 @@ let projects = [
     "category": "Featured",
     "liveUrl": "https://e-comm-demo.netlify.app/",
     "repositoryUrl": "https://github.com/Jtan99/Ecommerce",
-    "img": "{{ site.baseurl}}//Projects/Ecommerce/browseCatalogueDemo.png"
+    "img": "/Projects/Ecommerce/browseCatalogueDemo.png"
   },
   {
     "id": 3,
@@ -41,12 +41,12 @@ let projects = [
     "category": "Featured",
     "liveUrl": "",
     "repositoryUrl": "https://github.com/Jtan99/Multi-Agent-Path-Finder",
-    "img": "{{ site.baseurl}}//Projects/MultiAgentPathFinder/solvedInstance.jpg"
+    "img": "/Projects/MultiAgentPathFinder/solvedInstance.jpg"
   },
 ]
 
 // Define the Portfolio component
-const Portfolio = () => {
+const Projects = () => {
   let uniqueCategories = [...new Set(projects.map(project => project.category))];
   const [selected, setSelected] = useState("Featured");
   const [data, setData] = useState([]);
@@ -63,11 +63,11 @@ const Portfolio = () => {
   return (
     <section
       data-aos="fade-left"
-      className="portfolio"
-      name="portfolio"
-      id="portfolio"
+      className="projects"
+      name="proijects"
+      id="projects"
     >
-      <Heading text="Portfolio" style={{ padding: "3rem" }} />
+      <Heading text="Projects" style={{ padding: "3rem" }} />
       {/* Remove for now, when there is enough projects i will add categorization */}
       {/* <div className="list">
         {projectCategories &&
@@ -85,7 +85,7 @@ const Portfolio = () => {
         {data.length &&
           data.map((item, index) => (
             <div className="column" key={index}>
-              <img src={item?.img} alt={item.title} />
+              <img src={process.env.PUBLIC_URL + item?.img} alt={item.title} />
               <div className="overlay">
                 <div className="left">
                   <h3>{item.title}</h3>
@@ -137,4 +137,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Projects

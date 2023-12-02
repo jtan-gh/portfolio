@@ -9,13 +9,13 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
       <ul>
         <NavLink text="Home" path="home" onClick={() => setMenuOpen(false)} />
         <NavLink
-          text="Services"
-          path="services"
+          text="About"
+          path="about"
           onClick={() => setMenuOpen(false)}
         />
         <NavLink
-          text="Portfolio"
-          path="portfolio"
+          text="Projects"
+          path="projects"
           onClick={() => setMenuOpen(false)}
         />
         <NavLink

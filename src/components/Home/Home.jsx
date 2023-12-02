@@ -52,7 +52,7 @@ const Home = () => {
         </h2>
         <Link
           // className="home-btn"
-          to={"portfolio"}
+          to={"projects"}
           hashSpy={true}
           spy={true}
           smooth={true}
