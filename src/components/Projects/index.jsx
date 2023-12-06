@@ -43,6 +43,15 @@ let projects = [
     "repositoryUrl": "https://github.com/Jtan99/Multi-Agent-Path-Finder",
     "img": "/Projects/MultiAgentPathFinder/solvedInstance.jpg"
   },
+  {
+    "id": 4,
+    "title": "Spam Text Filter",
+    "tagline": "The project aims to create a robust machine learning model capable of effectively filtering out spam text messages.",
+    "category": "Featured",
+    "liveUrl": "",
+    "repositoryUrl": "https://github.com/Jtan99/Spam-filter",
+    "img": "/Projects/SpamFilter/process.jpg"
+  },
 ]
 
 // Define the Portfolio component
@@ -62,7 +71,6 @@ const Projects = () => {
   // Return JSX for rendering the component
   return (
     <section
-      data-aos="fade-left"
       className="projects"
       name="proijects"
       id="projects"
@@ -84,53 +92,60 @@ const Projects = () => {
       <div className="row">
         {data.length &&
           data.map((item, index) => (
-            <div className="column" key={index}>
-              <img src={process.env.PUBLIC_URL + item?.img} alt={item.title} />
-              <div className="overlay">
-                <div className="left">
-                  <h3>{item.title}</h3>
-                  {item.tagline && <p>{item.tagline}</p>}
-                </div>
-                <div className="right">
-                  {item.repositoryUrl !== "private" ? (
-                    <a href={item.repositoryUrl}>
-                      <FontAwesomeIcon
-                        icon={faGithubSquare}
-                        size="2x"
-                        className="icon"
-                        style={{ marginRight: "0.3em" }}
-                        title="Github Repo"
-                      />
-                    </a>
-                  ) : (
-                    <a href="#_">
-                      <FontAwesomeIcon
-                        icon={faUserLock}
-                        size="2x"
-                        className="icon"
-                        style={{ marginRight: "0.3em" }}
-                        title="Private Repo"
-                      />
-                    </a>
-                  )}
+            <PortfolioItem item={item} key={index} />
+            // <div
+            //   className="column"
+            //   key={index}
+            //   id={`portfolioItem${index}`}
+            //   data-aos="zoom-in-up"
+            //   data-aos-anchor={`#portfolioItem${index}`}
+            // >
+            //   <img src={process.env.PUBLIC_URL + item?.img} alt={item.title} />
+            //   <div className="overlay">
+            //     <div className="left">
+            //       <h3>{item.title}</h3>
+            //       {item.tagline && <p>{item.tagline}</p>}
+            //     </div>
+            //     <div className="right">
+            //       {item.repositoryUrl !== "private" ? (
+            //         <a href={item.repositoryUrl}>
+            //           <FontAwesomeIcon
+            //             icon={faGithubSquare}
+            //             size="2x"
+            //             className="icon"
+            //             style={{ marginRight: "0.3em" }}
+            //             title="Github Repo"
+            //           />
+            //         </a>
+            //       ) : (
+            //         <a href="#_">
+            //           <FontAwesomeIcon
+            //             icon={faUserLock}
+            //             size="2x"
+            //             className="icon"
+            //             style={{ marginRight: "0.3em" }}
+            //             title="Private Repo"
+            //           />
+            //         </a>
+            //       )}
 
-                  {item.liveUrl !== "" && (
-                    <a
-                      href={item.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FontAwesomeIcon
-                        icon={faExternalLinkSquareAlt}
-                        size="2x"
-                        className="icon"
-                        title="Live view"
-                      />{" "}
-                    </a>
-                  )}
-                </div>
-              </div>
-            </div>
+            //       {item.liveUrl !== "" && (
+            //         <a
+            //           href={item.liveUrl}
+            //           target="_blank"
+            //           rel="noopener noreferrer"
+            //         >
+            //           <FontAwesomeIcon
+            //             icon={faExternalLinkSquareAlt}
+            //             size="2x"
+            //             className="icon"
+            //             title="Live view"
+            //           />{" "}
+            //         </a>
+            //       )}
+            //     </div>
+            //   </div>
+            // </div>
           ))}
       </div>
     </section>

@@ -25,64 +25,7 @@ function App() {
   const [testimonials, setTestimonials] = useState([])
 
   useEffect(() => {
-    sanityClient
-      .fetch(
-        `*[_type in ["testimonial", "portfolio","service"]]{
-          _type == "testimonial" => {
-            id,
-            name,
-            text,
-            country,
-            url
-          },
-          _type == "portfolio" => {
-            id,
-            title,
-            tagline,
-            category,
-            liveUrl,
-            repositoryUrl,
-            img{
-              asset->{url}
-            },
-          },
-          _type == "service" => {
-            title,
-            tags,
-            icon{
-              asset->{url}
-            },
-          },
-        }
-        `
-      )
-      .then((data) => {
-        let tempTestimonials = []
-        let tempProjects = []
-        let tempServices = []
-
-        data.map((doc) => {
-          if (doc.country) {
-            // It is a testimonial
-            tempTestimonials.push(doc)
-          } else if (doc.liveUrl) {
-            // It is a project
-            tempProjects.push(doc)
-          } else {
-            tempServices.push(doc)
-          }
-
-          return null
-        })
-        setTestimonials(tempTestimonials)
-        setProjects(tempProjects)
-        setServices(tempServices)
-      })
-      .catch(console.error)
-  }, [])
-
-  useEffect(() => {
-    Aos.init({ duration: 2000, offset: 10 })
+    Aos.init({ duration: 2000, offset: 0 })
   }, [])
 
   return (
@@ -93,8 +36,9 @@ function App() {
       {/* <Services services={services} /> */}
       <About />
       <Projects projects={projects} />
-      <Testimonials testimonials={testimonials} />
-      <Contact />
+      {/* <Testimonials testimonials={testimonials} /> */}
+      {/* <Contact /> */}
+      
       <Footer />
     </div>
   )

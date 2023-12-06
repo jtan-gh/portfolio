@@ -18,11 +18,11 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
           path="projects"
           onClick={() => setMenuOpen(false)}
         />
-        <NavLink
+        {/* <NavLink
           text="Testimonials"
           path="testimonials"
           onClick={() => setMenuOpen(false)}
-        />
+        /> */}
         <NavLink
           text="Contact"
           path="contact"
