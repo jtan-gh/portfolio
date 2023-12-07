@@ -24,8 +24,8 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
           onClick={() => setMenuOpen(false)}
         /> */}
         <NavLink
-          text="Contact"
-          path="contact"
+          text="Experience"
+          path="work"
           onClick={() => setMenuOpen(false)}
         />
       </ul>

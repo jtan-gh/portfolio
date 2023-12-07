@@ -14,14 +14,14 @@ let workExperiences = [
     "title": "Full Stack Developer",
     "company": "Geocomply",
     "date" : "Jan 2023 - Aug 2023",
-    "description": "here is my job description",
+    "description": "Significantly contributed throughout the entire development lifecycle of a web application, playing a key role in its creation. The application was purposefully designed to empower companies in monitoring and effectively managing their userbase.",
   },
   {
     "id": 2,
     "title": "Agile Developer Internship",
     "company": "SAP",
     "date" : "Jan 2019 - Sept 2019",
-    "description": "here is my job description",
+    "description": "Actively contributed to the development of the SAP HANA Cloud tool, a widely recognized solution in the industry. Played a key role in enhancing the tool's capabilities for cutting-edge cloud computing analysis.",
   },
 ]
 

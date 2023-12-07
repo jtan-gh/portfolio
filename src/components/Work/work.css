@@ -7,10 +7,18 @@
 .vertical-timeline::before {
   background-color: var(--primary-color);
 }
+
 .vertical-timeline-element-date {
   color: var(--primary-color);
   font: 1.5em;
   font-weight: bold !important;
+  opacity: 0.9 !important;
+}
+
+@media screen and (max-width: 1170px) {
+  .vertical-timeline-element-date {
+    color: white;
+  }
 }
 
 .work .svg-inline--fa.fa-w-12,
@@ -20,4 +28,16 @@
 
 .vertical-timeline--animate .vertical-timeline-element-content.is-hidden {
   display: block !important;
+}
+
+.work .descriptionSection {
+  padding-top: 1rem;
+}
+
+.work ul  {
+  padding-left: 0;
+}
+
+.work li {
+  list-style-position: inside;
 }

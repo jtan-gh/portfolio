@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="social-section">
-        <a href="https://github.com/Jtan99">
+        <a href="https://ca.linkedin.com/in/johnson-tan-a84552193">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 496 512"
@@ -15,7 +15,7 @@ const Footer = () => {
           </svg>
         </a>
 
-        <a href="https://ca.linkedin.com/in/johnson-tan-a84552193">
+        <a href="https://github.com/Jtan99">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 496 512"
