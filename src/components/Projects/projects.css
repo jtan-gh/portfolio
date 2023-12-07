@@ -23,7 +23,7 @@
   padding-bottom: 2rem;
   justify-content: center;
   align-items: stretch;
-  gap: 1ch;
+  gap: 2ch;
 }
 
 @media screen and (min-width: 701px) {

@@ -9,6 +9,7 @@ import Projects from "components/Projects"
 import Contact from "components/Contact/Contact"
 import Services from "components/Services/Services"
 import Testimonials from "components/Testimonials/Testimonials"
+import Work from "components/Work/work"
 import Footer from "components/Footer/Footer"
 // Sanity
 import sanityClient from "client"
@@ -38,7 +39,7 @@ function App() {
       <Projects projects={projects} />
       {/* <Testimonials testimonials={testimonials} /> */}
       {/* <Contact /> */}
-      
+      <Work />
       <Footer />
     </div>
   )

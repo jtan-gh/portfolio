@@ -1,0 +1,23 @@
+
+.work {
+  /* padding: 3ch 0; */
+  width: 100%;
+}
+
+.vertical-timeline::before {
+  background-color: var(--primary-color);
+}
+.vertical-timeline-element-date {
+  color: var(--primary-color);
+  font: 1.5em;
+  font-weight: bold !important;
+}
+
+.work .svg-inline--fa.fa-w-12,
+.work .svg-inline--fa.fa-w-16 {
+  width: 24px;
+}
+
+.vertical-timeline--animate .vertical-timeline-element-content.is-hidden {
+  display: block !important;
+}
