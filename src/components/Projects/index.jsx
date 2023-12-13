@@ -21,7 +21,7 @@ let projects = [
     "title": "Fitness App",
     "tagline": "Interactive fitness studio webpage with React and Node.js",
     "category": "Featured",
-    "liveUrl": "https://github.com/Jtan99/fitness-app",
+    "liveUrl": "",
     "repositoryUrl": "https://github.com/Jtan99/fitness-app",
     "img": "/Projects/FitnessApp/landing.jpg"
   },

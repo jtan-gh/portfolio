@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgb(33, 150, 243);
+  --primary-color: #003d60;
   --secondary-color: #e9d5a1;
 }
 
@@ -8,14 +8,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-/* h1 {
-  font-size: 2em;
-}
-
-h2 {
-  font-size: 1.5em;
-} */
 
 body {
   width: 100%;

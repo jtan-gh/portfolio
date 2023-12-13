@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="about" >
       <div className="left">
-        <img src={process.env.PUBLIC_URL + "/profile.png"} alt="about" />
+        <img src={process.env.PUBLIC_URL + "/profile.jpg"} alt="about" />
       </div>
       <div className="right">
         <Heading text="Who am I?" style={{ padding: "0 3rem 3rem" }} />

@@ -105,18 +105,6 @@
   background-color: white;
 }
 
-/* Lines */
-.line1.menuActive {
-  transform: rotate(45deg);
-}
-
-.line2.menuActive {
-  opacity: 0;
-}
-
-.line3.menuActive {
-  transform: rotate(-45deg);
-}
 
 /** Media Query */
 @media screen and (min-width: 600px) {

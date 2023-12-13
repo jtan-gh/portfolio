@@ -3,6 +3,8 @@ import Typed from "react-typed"
 
 // SVG
 import man from "images/dev.jpg"
+import LinkedInProfile from "components/Media/LinkedInProfile"
+import GitHubProfile from "components/Media/GitHubProfile"
 
 // Animation
 import { Link } from "react-scroll"
@@ -41,7 +43,7 @@ const Home = () => {
         <h2>
           <Typed
             strings={[
-              "Software Engineer",
+              "Software Developer",
               "Full Stack Developer",
               "Data Scientist",
             ]}
@@ -50,8 +52,9 @@ const Home = () => {
             loop
           />
         </h2>
+
         <Link
-          // className="home-btn"
+          className="home-btn"
           to={"projects"}
           hashSpy={true}
           spy={true}
@@ -60,8 +63,14 @@ const Home = () => {
           offset={-100}
           duration={500}
         >
-          <Button text={"See my work"} type="submit" />
+          {/* <Button text={"See my work"} type="submit" /> */}
+          See my work
         </Link>
+
+        <div className="social-section">
+          <LinkedInProfile />
+          <GitHubProfile />
+        </div>
       </motion.div>
 
       <motion.div

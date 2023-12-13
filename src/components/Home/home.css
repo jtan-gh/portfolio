@@ -38,22 +38,24 @@
 
 .content .home-btn {
   font-size: large;
+  font-weight: bold;
   display: inline-block;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
   background-color: var(--primary-color);
   color: white;
-  padding: 1rem 2rem;
-  border-radius: 1px;
+  border-radius: 5px;
   cursor: pointer;
-  margin-top: 1rem;
-  font-weight: bold;
-  border: 1px solid transparent;
 }
 
 .home-btn:hover {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
-  background-color: transparent;
+  background-color: white;
+}
+
+.home-social-section {
+  transform: scale(2);
 }
 
 /* Medium */

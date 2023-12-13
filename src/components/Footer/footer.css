@@ -8,27 +8,28 @@
   color: gray;
   border-top: 0.5px solid gray;
 }
-.social-section{
-    display: flex;
+
+.social-section {
+  display: flex;
 }
-.icons{
-    color: var(--primary-color) !important;
-    width: 30px;
-    height: 30px;
-    padding: 4px;
+
+.icons {
+  color: var(--primary-color) !important;
+  width: 30px;
+  height: 30px;
+  padding: 4px;
 }
 
 
 /* Large */
 @media screen and (max-width: 600px) {
-    .footer-container {
-        margin-top: 20px;
-      flex-direction: column;
-      align-items: center;
-      text-align: left;
-      justify-content: center;
-      padding: 0.5rem 2rem;
-    }
-  
+  .footer-container {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    padding: 0.5rem 2rem;
   }
-  
+
+}

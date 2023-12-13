@@ -1,0 +1,20 @@
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-stack {
+  position: relative;
+  width: 40px; /* Adjust the size as needed */
+  height: 40px; /* Adjust the size as needed */
+}
+
+.icon-background {
+  position: absolute;
+  color: white; /* Set the background color */
+}
+
+.icon-foreground {
+  position: absolute;
+  color: #333; /* Set the foreground color */
+}
