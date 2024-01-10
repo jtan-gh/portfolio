@@ -14,45 +14,7 @@ import { faGithubSquare } from "@fortawesome/free-brands-svg-icons/faGithubSquar
 import { faUserLock } from "@fortawesome/free-solid-svg-icons/faUserLock"
 
 import PortfolioItem from "./PortfolioItem/PortfolioItem"
-
-let projects = [
-  {
-    "id": 1,
-    "title": "Fitness App",
-    "tagline": "Interactive fitness studio webpage with React and Node.js",
-    "category": "Featured",
-    "liveUrl": "",
-    "repositoryUrl": "https://github.com/Jtan99/fitness-app",
-    "img": "/Projects/FitnessApp/landing.jpg"
-  },
-  {
-    "id": 2,
-    "title": "Ecommerce Site",
-    "tagline": "React App integrated with commercial CMS and Stripe checkout system",
-    "category": "Featured",
-    "liveUrl": "https://e-comm-demo.netlify.app/",
-    "repositoryUrl": "https://github.com/Jtan99/Ecommerce",
-    "img": "/Projects/Ecommerce/browseCatalogueDemo.png"
-  },
-  {
-    "id": 3,
-    "title": "Multi Agent Path Finder",
-    "tagline": "Efficient Routing Solutions for Seamless Navigation in Robotics, Gaming, and AI Exploration.",
-    "category": "Featured",
-    "liveUrl": "",
-    "repositoryUrl": "https://github.com/Jtan99/Multi-Agent-Path-Finder",
-    "img": "/Projects/MultiAgentPathFinder/solvedInstance.jpg"
-  },
-  {
-    "id": 4,
-    "title": "Spam Text Filter",
-    "tagline": "The project aims to create a robust machine learning model capable of effectively filtering out spam text messages.",
-    "category": "Featured",
-    "liveUrl": "",
-    "repositoryUrl": "https://github.com/Jtan99/Spam-filter",
-    "img": "/Projects/SpamFilter/process.jpg"
-  },
-]
+import projects from "./data/details.json"
 
 // Define the Portfolio component
 const Projects = () => {

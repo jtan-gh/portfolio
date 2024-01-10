@@ -1,0 +1,42 @@
+[
+    {
+      "title": "Fitness App",
+      "tagline": "Interactive fitness studio webpage with React and Node.js",
+      "category": "Featured",
+      "liveUrl": "",
+      "repositoryUrl": "https://github.com/Jtan99/fitness-app",
+      "img": "/Projects/FitnessApp/landing.jpg"
+    },
+    {
+      "title": "Ecommerce Site",
+      "tagline": "React App integrated with commercial CMS and Stripe checkout system",
+      "category": "Featured",
+      "liveUrl": "https://e-comm-demo.netlify.app/",
+      "repositoryUrl": "https://github.com/Jtan99/Ecommerce",
+      "img": "/Projects/Ecommerce/browseCatalogueDemo.png"
+    },
+    {
+      "title": "Multi Agent Path Finder",
+      "tagline": "Efficient Routing Solutions for Seamless Navigation in Robotics, Gaming, and AI Exploration.",
+      "category": "Featured",
+      "liveUrl": "",
+      "repositoryUrl": "https://github.com/Jtan99/Multi-Agent-Path-Finder",
+      "img": "/Projects/MultiAgentPathFinder/solvedInstance.jpg"
+    },
+    {
+      "title": "Sales Insight Analysis",
+      "tagline": "Sales analysis on open-source data from a hardware manufacturing company, utilizing Microsoft Power BI to create a reusable and insightful dashboard.",
+      "category": "Featured",
+      "liveUrl": "https://app.powerbi.com/view?r=eyJrIjoiNmUxZTgzMTQtOWM3Yi00ZWI4LWI1MjktY2FjNWUwYzdkMmMxIiwidCI6IjRkMTRmM2MwLWJmYTItNGIwYS05MTgwLTUyYjljYzJkNjBjZiJ9&pageName=ReportSection",
+      "repositoryUrl": "https://github.com/Jtan99/sales-insight",
+      "img": "/Projects/SalesInsight/dashboard.jpg"
+    },
+    {
+      "title": "Spam Text Filter",
+      "tagline": "The project aims to create a robust machine learning model capable of effectively filtering out spam text messages.",
+      "category": "Featured",
+      "liveUrl": "",
+      "repositoryUrl": "https://github.com/Jtan99/Spam-filter",
+      "img": "/Projects/SpamFilter/process.jpg"
+    }
+  ]

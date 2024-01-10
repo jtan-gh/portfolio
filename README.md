@@ -11,7 +11,6 @@ Link to live demo: [https://jtan99.github.io/Portfolio/](https://jtan99.github.i
 To run this project, you will need the following technologies:
 
 - Node.js
-- npm
 - React
 
 ## Running the Project Locally
