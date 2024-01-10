@@ -1,5 +1,9 @@
 title: Johnson's Portfolio
 baseurl: "/portfolio"
+
+plugins:
+  - jekyll-redirect-from
+
 redirects:
   - from: "/Portfolio"
     to: "/portfolio"
