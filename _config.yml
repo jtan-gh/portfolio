@@ -1,2 +1,5 @@
 title: Johnson's Portfolio
-baseurl: "/Portfolio"
+baseurl: "/portfolio"
+redirects:
+  - from: "/Portfolio"
+    to: "/portfolio"

@@ -4,7 +4,7 @@ This is my personal portfolio, showcasing my projects and skills. It's built wit
 
 ## Live Demo
 
-Link to live demo: [https://jtan99.github.io/Portfolio/](https://jtan99.github.io/Portfolio/)
+Link to live demo: [https://jtan99.github.io/portfolio/](https://jtan99.github.io/portfolio/)
 
 ## Required Technologies
 
