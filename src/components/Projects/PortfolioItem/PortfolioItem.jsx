@@ -32,11 +32,18 @@ const PortfolioItem = ({ item }) => {
       <div className="content-container">
         <div>
           <h3>{item.title}</h3>
+          <div className="tags-container">
+            {
+              item?.tags.map((tag, index) => (
+                <p className="tag">{tag}</p>
+              ))
+            }
+          </div>
           {item.tagline && <p>{item.tagline}</p>}
         </div>
+      </div>
 
         <div className="media-icons">
-          {/* <p>just a random text</p> */}
           {item.repositoryUrl !== "private" ? (
             <a href={item.repositoryUrl}>
               <FontAwesomeIcon
@@ -72,8 +79,6 @@ const PortfolioItem = ({ item }) => {
             </a>
           )}
         </div>
-
-      </div>
     </div>
   );
 };

@@ -1,42 +1,56 @@
 [
-    {
-      "title": "Fitness App",
-      "tagline": "Interactive fitness studio webpage with React and Node.js",
-      "category": "Featured",
-      "liveUrl": "",
-      "repositoryUrl": "https://github.com/Jtan99/fitness-app",
-      "img": "/Projects/FitnessApp/landing.jpg"
-    },
-    {
-      "title": "Ecommerce Site",
-      "tagline": "React App integrated with commercial CMS and Stripe checkout system",
-      "category": "Featured",
-      "liveUrl": "https://e-comm-demo.netlify.app/",
-      "repositoryUrl": "https://github.com/Jtan99/Ecommerce",
-      "img": "/Projects/Ecommerce/browseCatalogueDemo.png"
-    },
-    {
-      "title": "Multi Agent Path Finder",
-      "tagline": "Efficient Routing Solutions for Seamless Navigation in Robotics, Gaming, and AI Exploration.",
-      "category": "Featured",
-      "liveUrl": "",
-      "repositoryUrl": "https://github.com/Jtan99/Multi-Agent-Path-Finder",
-      "img": "/Projects/MultiAgentPathFinder/solvedInstance.jpg"
-    },
-    {
-      "title": "Sales Insight Analysis",
-      "tagline": "Sales analysis on open-source data from a hardware manufacturing company, utilizing Microsoft Power BI to create a reusable and insightful dashboard.",
-      "category": "Featured",
-      "liveUrl": "https://app.powerbi.com/view?r=eyJrIjoiNmUxZTgzMTQtOWM3Yi00ZWI4LWI1MjktY2FjNWUwYzdkMmMxIiwidCI6IjRkMTRmM2MwLWJmYTItNGIwYS05MTgwLTUyYjljYzJkNjBjZiJ9&pageName=ReportSection",
-      "repositoryUrl": "https://github.com/Jtan99/sales-insight",
-      "img": "/Projects/SalesInsight/dashboard.jpg"
-    },
-    {
-      "title": "Spam Text Filter",
-      "tagline": "The project aims to create a robust machine learning model capable of effectively filtering out spam text messages.",
-      "category": "Featured",
-      "liveUrl": "",
-      "repositoryUrl": "https://github.com/Jtan99/Spam-filter",
-      "img": "/Projects/SpamFilter/process.jpg"
-    }
-  ]
+  {
+    "title": "Fruit And Vegetables Classifier",
+    "tags": ["Machine Learning", "CNN", "Python", "Tensorflow"],
+    "tagline": "A CNN Classifier Project specializing in precise fruit and vegetable image classification. Visit the live Streamlit application and upload images for instant classification.",
+    "category": "Featured",
+    "liveUrl": "https://cnn-classifier-lmgvujmxonthuj6f8szqca.streamlit.app/",
+    "repositoryUrl": "https://github.com/Jtan99/cnn-classifier",
+    "img": "/Projects/CnnClassifier/streamlitApp.png"
+  },
+  {
+    "title": "Fitness App",
+    "tags": ["Web Development", "React", "NodeJS"],
+    "tagline": "Presenting an interactive fitness studio webpage developed using React and Node.js. The project includes robust multilingual support and is currently being enhanced with a class registration system to optimize user experience.",
+    "category": "Featured",
+    "liveUrl": "",
+    "repositoryUrl": "https://github.com/Jtan99/fitness-app",
+    "img": "/Projects/FitnessApp/landing.jpg"
+  },
+  {
+    "title": "Ecommerce Site",
+    "tags": ["Web Development", "React", "Stripe"],
+    "tagline": "Discover a mobile-friendly React app integrated with a commercial CMS and Stripe checkout system. Security is managed via a third-party API for checkout and stock management, focusing on customization and user experience.",
+    "category": "Featured",
+    "liveUrl": "https://e-comm-demo.netlify.app/",
+    "repositoryUrl": "https://github.com/Jtan99/Ecommerce",
+    "img": "/Projects/Ecommerce/browseCatalogueDemo.png"
+  },
+  {
+    "title": "Multi Agent Path Finder",
+    "tags": ["Artificial Inteligence", "Constraint Satisfaction", "Search Algorithm", "Python"],
+    "tagline": "Developed and compared CG, DG, and WDG routing solutions for Robotics, Gaming, and AI exploration, evaluating their efficiency in computation time and computing power. Identified optimal heuristic mappings tailored to specific map patterns.",
+    "category": "Featured",
+    "liveUrl": "",
+    "repositoryUrl": "https://github.com/Jtan99/Multi-Agent-Path-Finder",
+    "img": "/Projects/MultiAgentPathFinder/solvedInstance.jpg"
+  },
+  {
+    "title": "Sales Insight Analysis",
+    "tags": ["Data Analysis", "Dashboard", "Power BI"],
+    "tagline": "Sales analysis on open-source data from a hardware manufacturing company, utilizing Microsoft Power BI to create a reusable and insightful dashboard.",
+    "category": "Featured",
+    "liveUrl": "https://app.powerbi.com/view?r=eyJrIjoiNmUxZTgzMTQtOWM3Yi00ZWI4LWI1MjktY2FjNWUwYzdkMmMxIiwidCI6IjRkMTRmM2MwLWJmYTItNGIwYS05MTgwLTUyYjljYzJkNjBjZiJ9&pageName=ReportSection",
+    "repositoryUrl": "https://github.com/Jtan99/sales-insight",
+    "img": "/Projects/SalesInsight/dashboard.jpg"
+  },
+  {
+    "title": "Spam Text Filter",
+    "tags": ["Machine Learning", "Classification", "Python"],
+    "tagline": "The project aims to create a robust machine learning model for filtering spam text messages, with a strong emphasis on minimizing false positives to ensure important messages are not incorrectly flagged as spam",
+    "category": "Featured",
+    "liveUrl": "",
+    "repositoryUrl": "https://github.com/Jtan99/Spam-filter",
+    "img": "/Projects/SpamFilter/process.jpg"
+  }
+]
