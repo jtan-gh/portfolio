@@ -82,11 +82,3 @@
     max-height: 600px;
   }
 }
-
-/* Media query for mobile vertical */
-@media screen and (max-width: 480px) {
-  .portfolio-item {
-    max-width: 300px;
-    max-height: 400px;
-  }
-}
