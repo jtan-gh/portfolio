@@ -2,7 +2,7 @@
   {
     "title": "Fruit And Vegetables Classifier",
     "tags": ["Machine Learning", "CNN", "Python", "Tensorflow"],
-    "tagline": "A CNN Classifier Project specializing in precise fruit and vegetable image classification. Visit the live Streamlit application and upload images for instant classification.",
+    "tagline": "A CNN classifier model built to accurately identify different fruits and vegetables from images",
     "category": "Featured",
     "liveUrl": "https://cnn-classifier-lmgvujmxonthuj6f8szqca.streamlit.app/",
     "repositoryUrl": "https://github.com/jtan-gh/cnn-classifier",
@@ -11,7 +11,7 @@
   {
     "title": "Fitness App",
     "tags": ["Web Development", "React", "NodeJS"],
-    "tagline": "Presenting an interactive fitness studio webpage developed using React and Node.js. The project includes robust multilingual support and is currently being enhanced with a class registration system to optimize user experience.",
+    "tagline": "An interactive fitness studio website with React and Node.js, featuring multilingual support and a class registration system for better user experience",
     "category": "Featured",
     "liveUrl": "",
     "repositoryUrl": "https://github.com/jtan-gh/fitness-app",
@@ -20,7 +20,7 @@
   {
     "title": "Ecommerce Site",
     "tags": ["Web Development", "React", "Stripe"],
-    "tagline": "Discover a mobile-friendly React app integrated with a commercial CMS and Stripe checkout system. Security is managed via a third-party API for checkout and stock management, focusing on customization and user experience.",
+    "tagline": "A mobile-friendly React app integrated with a CMS and Stripe checkout, using a third-party API for secure payments and stock management.",
     "category": "Featured",
     "liveUrl": "https://e-comm-demo.netlify.app/",
     "repositoryUrl": "https://github.com/jtan-gh/Ecommerce",
@@ -28,8 +28,8 @@
   },
   {
     "title": "Multi Agent Path Finder",
-    "tags": ["Artificial Inteligence", "Constraint Satisfaction", "Search Algorithm", "Python"],
-    "tagline": "Developed and compared CG, DG, and WDG routing solutions for Robotics, Gaming, and AI exploration, evaluating their efficiency in computation time and computing power. Identified optimal heuristic mappings tailored to specific map patterns.",
+    "tags": ["Artificial Inteligence", "Search Algorithm", "Python"],
+    "tagline": "A robotic pathfinding algorithm that enables multiple agents to navigate efficiently while avoiding collisions, optimizing performance for real-time AI and gaming applications",
     "category": "Featured",
     "liveUrl": "",
     "repositoryUrl": "https://github.com/jtan-gh/Multi-Agent-Path-Finder",
@@ -38,7 +38,7 @@
   {
     "title": "Sales Insight Analysis",
     "tags": ["Data Analysis", "Dashboard", "Power BI"],
-    "tagline": "Sales analysis on open-source data from a hardware manufacturing company, utilizing Microsoft Power BI to create a reusable and insightful dashboard.",
+    "tagline": "A Power BI dashboard providing key business insights for a computer hardware manufacturer",
     "category": "Featured",
     "liveUrl": "https://app.powerbi.com/view?r=eyJrIjoiNmUxZTgzMTQtOWM3Yi00ZWI4LWI1MjktY2FjNWUwYzdkMmMxIiwidCI6IjRkMTRmM2MwLWJmYTItNGIwYS05MTgwLTUyYjljYzJkNjBjZiJ9&pageName=ReportSection",
     "repositoryUrl": "https://github.com/jtan-gh/sales-insight",
@@ -47,7 +47,7 @@
   {
     "title": "Spam Text Filter",
     "tags": ["Machine Learning", "Classification", "Python"],
-    "tagline": "The project aims to create a robust machine learning model for filtering spam text messages, with a strong emphasis on minimizing false positives to ensure important messages are not incorrectly flagged as spam",
+    "tagline": "A machine learning model built to detect spam messages while minimizing false positives, ensuring important texts are not incorrectly filtered",
     "category": "Featured",
     "liveUrl": "",
     "repositoryUrl": "https://github.com/jtan-gh/Spam-filter",

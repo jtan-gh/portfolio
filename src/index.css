@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #49274A;       /* Deep navy */
-  --secondary-color: #F8EEE7;        /* Soft coral (energizing but not loud) */
-  --nav-color: #f4DEC8;        /* Or use a soft gray like #f0f2f5 */
+  --primary-color: #ac29d6;
+  --secondary-color: #F8EEE7;
+  --nav-color: #f4DEC8;
 }
 
 * {
