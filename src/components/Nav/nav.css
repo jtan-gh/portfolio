@@ -10,7 +10,7 @@
   top: 0;
   left: 0;
   transition: all 1s ease;
-  background: #dadada;
+  background:  var(--nav-color);
   z-index: 3;
   left: 50%;
   transform: translateX(-50%);

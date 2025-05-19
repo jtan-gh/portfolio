@@ -11,7 +11,7 @@
   background-color: var(--secondary-color);
 }
 
-.home-container .svg {
+.home-container .hero-img-container {
   display: none;
   min-width: 500px;
 }
@@ -58,6 +58,12 @@
   transform: scale(2);
 }
 
+.social-section {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
 /* Medium */
 @media screen and (min-width: 481px) {}
 
@@ -71,13 +77,13 @@
     padding: 0 2rem;
   }
 
-  .home-container .svg {
+  .home-container .hero-img-container {
     display: block !important;
     width: 90%;
     height: 90%;
   }
 
-  .svg img {
+  .hero-img-container img {
     width: 100%;
     height: 400px;
     color: var(--primary-color);
@@ -97,6 +103,12 @@
     width: 30rem;
     display: flex;
     align-items: center;
+  }
+
+  .social-section {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
   }
 }
 

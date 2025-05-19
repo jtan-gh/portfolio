@@ -3,10 +3,10 @@
   justify-content: space-between;
 }
 
-.icon-stack {
-  position: relative;
-  width: 40px; /* Adjust the size as needed */
-  height: 40px; /* Adjust the size as needed */
+.icon-hitbox {
+  display: grid;
+  width: fit-content;
+  height: fit-content;
 }
 
 .icon-background {
@@ -15,6 +15,8 @@
 }
 
 .icon-foreground {
-  position: absolute;
+  position: relative;
+  top: 0;
+  left: 0;
   color: #333; /* Set the foreground color */
 }

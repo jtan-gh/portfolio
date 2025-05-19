@@ -63,10 +63,8 @@ const Home = () => {
           offset={-100}
           duration={500}
         >
-          {/* <Button text={"See my work"} type="submit" /> */}
-          See my work
+          View my work
         </Link>
-
         <div className="social-section">
           <LinkedInProfile />
           <GitHubProfile />
@@ -74,7 +72,7 @@ const Home = () => {
       </motion.div>
 
       <motion.div
-        className="svg"
+        className="hero-img-container"
         animate={{ translateY: [-20, 0, -20, 0] }}
         transition={{ yoyo: Infinity, duration: 6 }}
       >
