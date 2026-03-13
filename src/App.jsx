@@ -8,6 +8,7 @@ import About from "components/About/About"
 import Projects from "components/Projects"
 import Work from "components/Work/work"
 import Footer from "components/Footer/Footer"
+import Iframe from 'react-iframe'
 
 // Animation
 import Aos from "aos"
@@ -25,6 +26,13 @@ function App() {
       <Nav menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Home />
+      {/* <Iframe url="https://drive.google.com/file/d/1XtClgX0ak2vhHGmnuGSWL-k5qPwc4-8G/preview"
+        width="640px"
+        height="320px"
+        id=""
+        className=""
+        display="block"
+        position="relative"/> */}
       <About />
       <Projects />
       {/* <Contact /> */}

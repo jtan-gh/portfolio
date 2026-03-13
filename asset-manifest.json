@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/jtan-gh/portfolio/static/css/main.834b5715.css",
-    "main.js": "/jtan-gh/portfolio/static/js/main.0415123b.js",
-    "static/media/dev.svg": "/jtan-gh/portfolio/static/media/dev.5ac54af8cdecb6b477d6597a6bae015b.svg",
-    "static/media/shake.svg": "/jtan-gh/portfolio/static/media/shake.c7165a1f59e2367bf4395199384f606f.svg",
-    "index.html": "/jtan-gh/portfolio/index.html",
-    "main.834b5715.css.map": "/jtan-gh/portfolio/static/css/main.834b5715.css.map",
-    "main.0415123b.js.map": "/jtan-gh/portfolio/static/js/main.0415123b.js.map"
+    "main.css": "/jtan-gh/static/css/main.834b5715.css",
+    "main.js": "/jtan-gh/static/js/main.0415123b.js",
+    "static/media/dev.svg": "/jtan-gh/static/media/dev.5ac54af8cdecb6b477d6597a6bae015b.svg",
+    "static/media/shake.svg": "/jtan-gh/static/media/shake.c7165a1f59e2367bf4395199384f606f.svg",
+    "index.html": "/jtan-gh/index.html",
+    "main.834b5715.css.map": "/jtan-gh/static/css/main.834b5715.css.map",
+    "main.0415123b.js.map": "/jtan-gh/static/js/main.0415123b.js.map"
   },
   "entrypoints": [
     "static/css/main.834b5715.css",
